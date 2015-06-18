@@ -94,9 +94,9 @@
                     
                     <configuration>
                         <driver>com.mysql.jdbc.Driver</driver>
-                        <url>jdbc:mysql://localhost:8889/scs_reservas</url>
-                        <username>root</username>
-                        <password>root</password>
+                        <url>jdbc:mysql://us-cdbr-azure-northcentral-a.cleardb.com:3306/tomcatreservas</url>
+                        <username>b66a31c01dfc1a</username>
+                        <password>9de68434</password>
           <!-- You can comment out username/password configurations
 and have maven to look them up in your settings.xml using
 ${settingsKey} -->
@@ -110,7 +110,7 @@ ${settingsKey} -->
                                 <goal>execute</goal>
                             </goals>
                             <configuration>
-                                <url> jdbc:mysql://localhost:8889/scs_reservas</url>
+                                <url> jdbc:mysql://us-cdbr-azure-northcentral-a.cleardb.com:3306/tomcatreservas</url>
                                 <autocommit>true</autocommit>
                                 <srcFiles>
                                     <srcFile>src/sql/schema.sql</srcFile>
