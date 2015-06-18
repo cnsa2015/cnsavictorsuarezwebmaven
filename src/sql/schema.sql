@@ -8,7 +8,7 @@ USE tomcatreservas;
 #
 # Table structure for table 'HOTEL'
 #
-
+#este es una prueba
  DROP TABLE IF EXISTS HOTEL;
 CREATE TABLE `HOTEL` (
   `ID` bigint(20) NOT NULL AUTO_INCREMENT,
